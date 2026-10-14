@@ -91,10 +91,3 @@ herramientas, clientes y empleados) si la base esta vacia.
   son compatibles con esta version de Hibernate).
 - Maven (el que trae IntelliJ sirve).
 - MySQL 8+ o MariaDB 10+.
-
-## Notas de seguridad
-
-- Las contrasenas de los empleados en los datos de ejemplo son solo para la
-  demo; en un sistema real deberian guardarse **hasheadas** (BCrypt).
-- No subas `application.properties` con contrasenas reales al repositorio;
-  usa variables de entorno (`${DB_PASSWORD}`).
