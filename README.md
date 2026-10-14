@@ -32,8 +32,7 @@ com.empresa.alquilerherramientas
 
 Cada servicio se define como **interface + implementacion** para aplicar el
 principio de inversion de dependencias (DIP): los controladores dependen de la
-abstraccion, no de la clase concreta. Es el mismo estilo en capas que usa la
-catedra, adaptado a Spring Boot (en Hibernate nativo serian los controladores
+abstraccion, no de la clase concreta. Adaptado a Spring Boot (en Hibernate nativo serian los controladores
 `InterControl<T>` con `Session`/`Transaction` manuales; aqui lo resuelven
 `JpaRepository` + `@Transactional`).
 
